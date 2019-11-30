@@ -60,6 +60,4 @@ public class PartitionLinkedListTest {
 
         assertEquals(linkedListExpected, partitionLinkedList.partitionLinkedList(linkedList, delimiterValue));
     }
-
-
 }
