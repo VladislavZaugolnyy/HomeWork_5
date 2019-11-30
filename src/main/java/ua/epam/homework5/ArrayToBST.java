@@ -1,12 +1,10 @@
-package ua.epam.homework5.hightBalancedBST;
+package ua.epam.homework5;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.TreeSet;
 
 public class ArrayToBST {
-    public TreeSet<Integer> convertArrayToTreeSet(ArrayList <Integer> list) {
+    public TreeSet<Integer> convertArrayToTreeSet(ArrayList<Integer> list) {
         if (list == null)
             return new TreeSet();
         TreeSet treeSet = new TreeSet();

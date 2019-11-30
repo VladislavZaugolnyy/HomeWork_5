@@ -1,10 +1,10 @@
-package ua.epam.homework5.partitionLinkedList;
-
-import static org.junit.Assert.*;
+package ua.epam.homework5;
 
 import org.junit.Test;
 
 import java.util.LinkedList;
+
+import static org.junit.Assert.assertEquals;
 
 public class PartitionLinkedListTest {
     private PartitionLinkedList partitionLinkedList = new PartitionLinkedList();
@@ -60,7 +60,6 @@ public class PartitionLinkedListTest {
 
         assertEquals(linkedListExpected, partitionLinkedList.partitionLinkedList(linkedList, delimiterValue));
     }
-
 
 
 }

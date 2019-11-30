@@ -1,4 +1,4 @@
-package ua.epam.homework5.rotateLinkedList;
+package ua.epam.homework5;
 
 import java.util.Collections;
 import java.util.LinkedList;

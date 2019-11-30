@@ -1,4 +1,4 @@
-package ua.epam.homework5.removeDuplicates;
+package ua.epam.homework5;
 
 import org.junit.Test;
 

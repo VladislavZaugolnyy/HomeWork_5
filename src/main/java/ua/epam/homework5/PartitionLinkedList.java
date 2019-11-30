@@ -1,4 +1,4 @@
-package ua.epam.homework5.partitionLinkedList;
+package ua.epam.homework5;
 
 import java.util.LinkedList;
 

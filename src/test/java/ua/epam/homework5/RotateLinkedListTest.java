@@ -1,15 +1,16 @@
-package ua.epam.homework5.rotateLinkedList;
+package ua.epam.homework5;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 import java.util.LinkedList;
+
+import static org.junit.Assert.assertEquals;
 
 public class RotateLinkedListTest {
     private RotateLinkedList rotateLinkedList = new RotateLinkedList();
 
     @Test
-    public void shouldRotateLinkedListByKElements () {
+    public void shouldRotateLinkedListByKElements() {
         LinkedList<Integer> linkedList = new LinkedList<Integer>();
         linkedList.add(5);
         linkedList.add(1);
@@ -30,7 +31,7 @@ public class RotateLinkedListTest {
     }
 
     @Test
-    public void shouldRotateLinkedListFullCycle () {
+    public void shouldRotateLinkedListFullCycle() {
         LinkedList<Integer> linkedList = new LinkedList<Integer>();
         linkedList.add(1);
         linkedList.add(2);
